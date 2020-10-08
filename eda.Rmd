@@ -187,6 +187,8 @@ weather_df %>%
 
 what about window functions
 
+ranking ..
+
 ```{r}
 weather_df %>% 
   group_by(name, month) %>% 
@@ -204,4 +206,9 @@ weather_df %>%
     temp_change_sd = sd(temp_change, na.rm = TRUE)
   )
 ```
+
+
+## Quike note
+
+summarize only gets you so far.
 
