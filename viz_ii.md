@@ -243,8 +243,8 @@ options(
   ggplot2.continuous.fill = "viridis"
 )  
 
-scale_colour_discrete = scale_color_viridis_d()
-scale_fill_discrete = scale_fill_viridis_d()
+scale_colour_discrete = scale_color_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
 ```
 
 ## Data args in `geom`
